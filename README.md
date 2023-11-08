@@ -1,4 +1,4 @@
-# KmeansWithNulls Clustering Implementation
+# KmeansWithNulls (KWN) Clustering Implementation
 
 This repository contains a Python implementation of the KMeans clustering algorithm which includes support for handling missing values in the dataset. The implementation allows for specifying the number of clusters, maximum iterations, and the random state for reproducibility.
 
