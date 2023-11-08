@@ -29,11 +29,11 @@ import numpy as np
 data = np.array([[1, 2], [1, 4], [1, 0],
                  [10, 2], [10, 4], [10, 0]])
 
-# Initialize the KMeans class
-kmeans = KMeans(n_clusters=2, max_iter=300, random_state=42)
+# Initialize the KmeansWithNulls class
+kmeans_with_nulls = KmeansWithNulls(n_clusters=2, max_iter=300, random_state=42)
 
 # Fit the model to your data
-kmeans.fit(data)
+kmeans_with_nulls.fit(data)
 
 # Predict the clusters
 labels = kmeans.predict(data)
