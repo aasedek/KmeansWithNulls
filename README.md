@@ -13,9 +13,9 @@ This repository contains a Python implementation of the KMeans clustering algori
 
 No installation is required, just clone this repository using the following command:
 
-(```bash
+```bash
 git clone https://github.com/aasedek/KmeansWithNulls.git
-```)
+```
 
 ## Usage
 
