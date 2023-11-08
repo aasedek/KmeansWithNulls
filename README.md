@@ -36,7 +36,7 @@ kmeans_with_nulls = KmeansWithNulls(n_clusters=2, max_iter=300, random_state=42)
 kmeans_with_nulls.fit(data)
 
 # Predict the clusters
-labels = kmeans.predict(data)
+labels = kmeans_with_nulls.predict(data)
 ```
 
 ## Example:
