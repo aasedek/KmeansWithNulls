@@ -109,7 +109,7 @@ plt.show()
 Contributions to improve this implementation are welcome. Before creating a pull request, please ensure your code follows the existing code structure and style.
 
 ## License
-This project is open-sourced under the MIT License. See the LICENSE file for details.
+This project is open-sourced under the GNU General Public License v3.0. See the [LICENSE](https://github.com/aasedek/KmeansWithNulls/blob/master/LICENSE) file for details.
 
 ## Contact
 For questions and feedback, please reach out to me at arthur.sedek@gmail.com
