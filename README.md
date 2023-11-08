@@ -21,7 +21,7 @@ git clone https://github.com/aasedek/KmeansWithNulls.git
 
 To use the KmeansWithNulls class, import it into your Python script and create an instance of the class. Then call the `fit` method with your dataset:
 
-(```python
+```python
 from KmeansWithNulls import KmeansWithNulls
 import numpy as np
 
@@ -37,7 +37,7 @@ kmeans.fit(data)
 
 # Predict the clusters
 labels = kmeans.predict(data)
-```)
+```
 
 ## Contributing
 Contributions to improve this implementation are welcome. Before creating a pull request, please ensure your code follows the existing code structure and style.
