@@ -44,6 +44,7 @@ labels = kmeans_with_nulls.predict(data)
 ```python
 import numpy as np
 import pandas as pd
+import KmeansWithNulls
 
 # Create a synthetic dataset with 100 points and 2 features
 np.random.seed(42)
