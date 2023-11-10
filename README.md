@@ -1,4 +1,4 @@
-# KmeansWithNulls (KWN) Clustering for Multi-variate Implementation
+# KmeansWithNulls (KWN) Clustering for Multivariate Implementation
 
 This repository contains a Python implementation of the KMeans clustering algorithm which includes support for handling missing values in multivariate dataset.
 The implementation allows for specifying the number of clusters, maximum iterations, and the random state for reproducibility.
