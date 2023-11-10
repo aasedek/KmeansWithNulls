@@ -1,16 +1,16 @@
 Metadata-Version: 2.1
 Name: kmeanswithnulls
-Version: 0.1
+Version: 0.1.1
 Summary:  a Python implementation of the KMeans clustering algorithm which includes support for handling missing values in the dataset
 Home-page: https://github.com/aasedek/KmeansWithNulls.git
 Author: Arthur Sedek
 Author-email: arthur.sedek@gmail.com
 Description-Content-Type: text/markdown
-License-File: LICENSE
 
-# KmeansWithNulls (KWN) Clustering Implementation
+# KmeansWithNulls (KWN) Clustering for Multi-variate Implementation
 
-This repository contains a Python implementation of the KMeans clustering algorithm which includes support for handling missing values in the dataset. The implementation allows for specifying the number of clusters, maximum iterations, and the random state for reproducibility.
+This repository contains a Python implementation of the KMeans clustering algorithm which includes support for handling missing values in multivariate dataset.
+The implementation allows for specifying the number of clusters, maximum iterations, and the random state for reproducibility.
 
 ## Features
 
@@ -39,14 +39,14 @@ import numpy as np
 data = np.array([[1, 2], [1, 4], [1, 0],
                  [10, 2], [10, 4], [10, 0]])
 
-# Initialize the KMeans class
-kmeans = KMeans(n_clusters=2, max_iter=300, random_state=42)
+# Initialize the KmeansWithNulls class
+kmeans_with_nulls = KmeansWithNulls(n_clusters=2, max_iter=300, random_state=42)
 
 # Fit the model to your data
-kmeans.fit(data)
+kmeans_with_nulls.fit(data)
 
 # Predict the clusters
-labels = kmeans.predict(data)
+labels = kmeans_with_nulls.predict(data)
 ```
 
 ## Example:
@@ -54,6 +54,7 @@ labels = kmeans.predict(data)
 ```python
 import numpy as np
 import pandas as pd
+import KmeansWithNulls
 
 # Create a synthetic dataset with 100 points and 2 features
 np.random.seed(42)
@@ -118,7 +119,7 @@ plt.show()
 Contributions to improve this implementation are welcome. Before creating a pull request, please ensure your code follows the existing code structure and style.
 
 ## License
-This project is open-sourced under the MIT License. See the LICENSE file for details.
+This project is open-sourced under the GNU General Public License v3.0. See the [LICENSE](https://github.com/aasedek/KmeansWithNulls/blob/master/LICENSE) file for details.
 
 ## Contact
 For questions and feedback, please reach out to me at arthur.sedek@gmail.com

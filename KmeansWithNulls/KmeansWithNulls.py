@@ -1,6 +1,6 @@
 import numpy as np
 
-class KMeansWithNulls:
+class KmeansWithNulls:
     def __init__(self, n_clusters=2, max_iter=300, random_state=42):
         if not isinstance(n_clusters, int) or n_clusters <= 0:
             raise ValueError("n_clusters must be a positive integer")
